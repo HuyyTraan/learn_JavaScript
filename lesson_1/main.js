@@ -15,3 +15,9 @@ function writeLog() {
 }
 
 writeLog('log1', 'log2', 'log3', 'log4');
+
+var language = [
+    'JavaScript',
+    'PHP',
+    'Ruby'
+]
