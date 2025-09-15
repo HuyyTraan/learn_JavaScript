@@ -21,3 +21,11 @@ var language = [
     'PHP',
     'Ruby'
 ]
+
+function User(name, age, address) {
+    this.name = name;
+    this.age = age;
+    this.address = address;
+}
+
+var user = new User('Huy', 20, 'HCM');
