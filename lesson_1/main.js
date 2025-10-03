@@ -258,3 +258,13 @@ function findLongestWord(str) {
 console.log(findLongestWord("Học lập trình JavaScript thật vui")); // Output: "JavaScript"
 
 // ...existing code...
+
+
+//callback function
+Array.prototype.map2 = function(callback){
+    var output = [], arrayLength = this.length;
+    for (var i = 0; i < arrayLength; i++) {
+        output.push(callback(this[i], i, this));
+    }
+    return output;
+}

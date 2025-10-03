@@ -1,0 +1,24 @@
+{
+  "name": "learn_js",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/HuyyTraan/learn_JavaScript#readme",
+  "bugs": {
+    "url": "https://github.com/HuyyTraan/learn_JavaScript/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HuyyTraan/learn_JavaScript.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server --watch db.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "json-server": "^1.0.0-beta.3"
+  }
+}
